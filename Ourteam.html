@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <!-- Author -->
+    <meta name="author" content="Dibiz Team">
+    <!-- Description -->
+    <meta name="description" content="Esencaexport  ">
+    <!-- Page Title -->
+    <title>EsencaExport</title>
+    <!-- Favicon -->
+    <link href="images/icon/ttransparent.png" rel="icon">
+    <!-- Bundle -->
+    <link href="vendor/css/bundle.min.css" rel="stylesheet">
+    <!-- Plugin Css -->
+    <link href="vendor/css/LineIcons.min.css" rel="stylesheet">
+    <link href="vendor/css/revolution-settings.min.css" rel="stylesheet">
+    <link href="vendor/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="vendor/css/cubeportfolio.min.css" rel="stylesheet">
+
+     <!-- FONTS -->
+     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Manrope:100,200,300,400,400italic,500,700,700italic,900'>
+     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Tenor+Sans:100,200,300,400,400italic,500,700,700italic,900'>
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+
+    <!-- Style Sheet -->
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/line-awesome.min.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+      <style>
+    /*dropdown*/
+    
+*{
+         box-sizing: border-box;
+
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+    
+    /*end*/
+    
+        .finance .tp-bullet.selected .tp-bullet-inner{
+            background-color: transparent;
+        }
+        .finance .tp-bullet.selected .tp-bullet-inner{
+            border: none;
+        }
+
+        /* navbar  */
+        .navbar-top-default{
+            height: 100px ;
+        }
+        
+        /*button css*/
+        .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+    </style>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="90" style="background: #ddd;">
+
+<!-- Loader -->
+<div class="loader-bg">
+    <div class="loader"></div>
+</div>
+<!-- Loader ends -->
+
+<!-- START HEADER -->
+<header>
+    <!--Navigation-->
+    <!--<nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line" style="align-items: start; z-index:99999 !important; ">-->
+    <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
+     <div class="container round-nav" style="padding:0">
+            <a href="index.html" title="Logo" class="logo ">
+                <!--Logo Default-->
+                <img src="images/icon/ttransparent.png" alt="logo" class="ml-lg-3 m-0">
+                <!--<img src="images/Dark.png" alt="logo" class="ml-lg-3 m-0">-->
+            </a>
+
+            <!--Nav Links-->
+            <div class="collapse navbar-collapse" id="megaone">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link  line" href="index.html">Home</a>
+                    <a class="nav-link  line" href="about.html">About Us</a>
+                    <a class="nav-link  line "  onclick="openNav()" href="#dummydiv">Products</a>
+                    <!-- <a class="nav-link  line" href="our_products.html"></a> -->
+                    <!-- Example single danger button -->
+
+   
+  
+  <!--navdropdown-->
+
+   
+ 
+                    <a class="nav-link  line active" href="Ourteam.html">Our Team</a>
+                    <a  class="nav-link  line " href='contact.html' 
+                    >Contact Us</a>
+
+
+                </div>
+            </div>
+        </div>
+        <!--Side Menu Button-->
+        <div class="navigation-toggle" >
+            <ul class="slider-social toggle-btn my-0">
+                <li>
+                    <a href="javascript:void(0);" class="sidemenu_btn" id="sidemenu_toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Side Nav-->
+    <div class="side-menu hidden">
+
+        <div class="mega-title" id="mega-title"><h2 class="inner-mega-title">Corporate Finance</h2></div>
+
+        <span id="btn_sideNavClose">
+          <i class="las la-times btn-close"></i>
+        </span>
+        <div class="inner-wrapper">
+            <nav class="side-nav w-100">
+                <a href="index-corporate-finance.html" title="Logo" class="logo scroll navbar-brand">
+                    <img src="images/icon/ttransparent.png" alt="logo">
+                </a>
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="our_products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Ourteam.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                                            <a  class="nav-link   " href='contact.html' 
+                    >Contact Us</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+
+            <div class="side-footer w-100">
+                <ul class="social-icons-simple">
+                    <li><a class="facebook_bg_hvr2 wow fadeInLeft" href="javascript:void(0)" data-wow-delay="300ms"><i class="fab fa-facebook-f"></i> </a> </li>
+                    <li><a class="instagram_bg_hvr2 wow fadeInUp" href="javascript:void(0)" data-wow-delay="500ms"><i class="fab fa-instagram"></i> </a> </li>
+                    <li><a class="twitter_bg_hvr2 wow fadeInRight" href="javascript:void(0)" data-wow-delay="300ms"><i class="fab fa-twitter"></i> </a> </li>
+                </ul>
+                <p><a hef="https://www.dibizsolution.com">© 2021 EsencaExport -Designed by Dibiz Solution</a></p>
+            </div>
+        </div>
+    </div>
+    <a id="close_side_menu" href="javascript:void(0);"></a>
+    <!-- End side menu -->
+
+    <!--Get Started Model Popup-->
+    <div class="quote-content hidden animated-modal" id="animatedModal">
+        <!--Heading-->
+        <div class="pb-md-5 p-0 text-center">
+            <span class="text-blue font-weight-200 font-20">We are EsencaExports Company</span>
+            <h2 class="main-font font-weight-600 text-black mt-2">Lets start your <span class="text-green js-rotating">project, website</span></h2>
+        </div>
+        <!--Contact Form-->
+        <form class="contact-form" id="modal-contact-form-data">
+            <div class="row">
+                <!--Result-->
+                <div class="col-12" id="quote_result"></div>
+
+                <!--Left Column-->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="quote_name" name="quoteName" placeholder="Name" required=""
+                               type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_contact" name="userPhone" placeholder="Contact #" required=""
+                               type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_type" name="projectType" placeholder="Project type" required=""
+                               type="text">
+                    </div>
+                </div>
+
+                <!--Right Column-->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="quote_email" name="userEmail" placeholder="Email" required=""
+                               type="email">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_address" name="userAddress" placeholder="City / Country"
+                               required="" type="text">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="quote_budget" name="quoteBudget" placeholder="Budget" required=""
+                               type="text">
+                    </div>
+                </div>
+
+                <!--Full Column-->
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <textarea class="form-control" id="userMessage"
+                                  name="userMessage"  placeholder="Please explain your project in detail."></textarea>
+                    </div>
+                </div>
+
+                <!--Button-->
+                <div class="col-md-12">
+                    <div class="form-check">
+                        <label class="checkbox-lable font-weight-200 font-16">Contact by phone is preferred
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <a href="javascript:void(0)" class="btn btn-large btn-rounded btn-green btn-hvr-up btn-hvr-blue modal_contact_btn" id="quote_submit_btn">Submit Now</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- sided pop-up for product  -->
+
+     <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <h4>Explore Our Product</h4>
+     <div class="sidenav_prod" >
+      <a href="vegetable.html" class="side_prodct"><div><img src="images/vegs/esenca_export_veg1.jpg" alt=""><span >Vegetables</span></div></a>
+      <a href="fruits.html" class="side_prodct"><div><img src="images/vegs/esenca_export_fruit1.jpg" alt=""><span >Fruit</span></div></a>
+      <a href="pulses.html" class="side_prodct"><div><img src="images/vegs/esenca_export_pulses1.jpg" alt=""><span >Pulses</span></div></a>
+      <a href="indianmeat.html" class="side_prodct"><div><img src="images/vegs/esenca_export_meat1.jpg" alt=""><span >Meat</span></div></a>
+      <a href="rice.html#" class="side_prodct"><div><img src="images/vegs/esenca_export_rice1.jpg" alt=""><span >Rice</span></div></a>
+      <a href="sugar.html" class="side_prodct"><div><img src="images/vegs/esenca_export_sugar1.jpg" alt=""><span >Sugar</span></div></a>
+      </div>
+       <center> <img src="images/icon/esencaexport_log.png" alt="logo" ></center>
+      <p><a hef="https://www.dibizsolution.com">© 2021 EsencaExport -Designed by Dibiz Solution</a></p>
+      </div>
+     
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "380px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+        
+        
+    
+</header>
+<!-- END HEADER -->
+<!-- START MAIN SLIDER -->
+<!-- START MAIN SLIDER -->
+<div id="slider-section" class="slider-section">
+    <div id="revo_main_wrapper" class="rev_slider_wrapper fullwidthbanner-container m-0 p-0 bg-dark" data-alias="classic4export" data-source="gallery">
+        <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
+        <div id="vertical-bullets" class="rev_slider fullwidthabanner white vertical-tpb" data-version="5.4.1">
+            <ul>
+          
+                <!-- SLIDE 4 -->
+                <li data-index="rs-04" data-transition="fade" data-slotamount="default" data-easein="Power100.easeIn" data-easeout="Power100.easeOut" data-masterspeed="2000" data-fsmasterspeed="1500" data-param1="03">
+                    <!-- MAIN IMAGE -->
+                    <img src="images/ourteam.jpg"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" alt="slider-image" data-no-retina>
+                    <div class="bg-overlay bg-black opacity-4"></div>
+                    <div class="slider-overlay"></div>
+                    <!-- Video -->
+                   
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-60','-60','-55','-55']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['center','center','center','center']"
+                         data-transform_idle="o:1;"
+                         data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":280,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                         data-start="1000" data-splitin="none" data-splitout="none">
+                        <h1 class="text-white main-font font-40 font-weight-600">OUR TEAM</h1>
+                    </div>
+                    <!-- LAYER NR. 2 -->
+                    <!-- <div class="tp-caption tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                         data-whitespace="nowrap" data-responsive_offset="on"
+                         data-width="['none','none','none','none']" data-type="text"
+                         data-textalign="['center','center','center','center']" data-fontsize="['48','48','20','26']"
+                         data-transform_idle="o:1;"
+                         data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":280,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                         data-start="900" data-splitin="none" data-splitout="none">
+                        <h1 class="text-white font-40 main-font font-weight-600"><span class="font-weight-200">Best</span> Plans for Clients</h1>
+                    </div> -->
+                    <!-- LAYER NR. 3 -->
+                    <!-- <div class="tp-caption tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['70','70','70','70']"
+                         data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
+                         data-textAlign="['center','center','center','center']"
+                         data-responsive_offset="on" data-start="2000"
+                         data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":280,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
+                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;">
+                        <p class="alt-font font-18 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapi<br>bus diam. Mauris malesuada, nisl non rutrum commodo, sem magna.</p>
+                    </div> -->
+                    <!-- LAYER NR. 4 -->
+                    <!-- <div class="tp-caption tp-resizeme"
+                         data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":280,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['155','155','150','150']"
+                         data-width="['500','500','500','500']" data-textalign="['center','center','center','center']" data-type="text"
+                         data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;" data-transform_out="s:900;e:Power2.easeInOut;s:900;e:Power2.easeInOut;" data-start="1800" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+                        <a href="#contact" class="scroll btn btn-medium btn-rounded btn-blue btn-hvr-green btn-hvr-up">Learn More</a>
+                    </div> -->
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <ul class="social-icons social-icons-simple revicon white d-none d-md-block d-lg-block">
+        <li class="d-table"><a href="javascript:void(0)" class="facebook_bg_hvr2"><i class="fab fa-facebook-f"></i></a> </li>
+        <li class="d-table"><a href="javascript:void(0)" class="twitter_bg_hvr2"><i class="fab fa-twitter"></i> </a> </li>
+        <li class="d-table"><a href="javascript:void(0)" class="linkdin_bg_hvr2"><i class="fab fa-linkedin-in"></i> </a> </li>
+        <li class="d-table"><a href="javascript:void(0)" class="instagram_bg_hvr2"><i class="fab fa-instagram"></i> </a> </li>
+    </ul>
+</div>
+
+
+
+
+<!--scroll down-->
+<a href="#products" class="scroll-down link scroll main-font font-15 animate">Scroll Down <i class="fas fa-long-arrow-alt-down"></i></a>
+
+
+
+
+
+<section  class="pro_sec">
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil quos eos at nam tempora. Et natus dolore aspernatur necessitatibus enim quaerat neque aliquam exercitationem magni tenetur blanditiis nostrum ipsam cum quia adipisci animi asperiores consequuntur veniam tempore odit fuga obcaecati, nihil quae! Unde, modi officiis. Velit, id nobis quod porro quidem quasi. Vel voluptatum nisi rem! Accusamus, deserunt ea culpa dicta cupiditate facilis autem sint totam dolorem perferendis, quisquam libero?</p>-->
+</section>
+<!-- products part  -->
+
+<section class="prod_spec" id="products">
+    <h1>Our Team</h1>
+
+    <div class="prod_contnr">
+
+      
+        <div class="prod_card" onclick="#';">
+            <div>
+                <img src="images/adnan.jpg" alt="">
+                <h3 style="	background-image: url(images/icon/brush.png);    background-size: cover;
+    padding-right: 46px;
+    padding-bottom: 0;background-position: center;">ADNAN S KALANDAR</h3>
+            </div>
+            <p>
+                <h5 style="font-weight:700;color:#03bb85">FOUNDER/DIRECTOR/PARTNER:</h5>
+
+                Adnan S Kalandar is a young and passionate Entrepreneur and an owner of a successful import/export company. A person with million ideas and innovation.
+            Who really believes that success is always earned,its never gifted to anyone. He perceived his bachelors degree in information technology (IT) and gained 
+            all the knowledge from that field and later used it in his business ideas,as he was always interested in starting something of his own, a new startup company.
+            He is also active in other business industries like automobile and many more. In this competitive world he is always ready to take risk and overcome challenges
+            to grow his company and strongly believes in working hard and smart to improve multiple aspects of the firm. Its always a fun and positive vibe when working
+            around him.According to him it is important to be updated with the current technology for a smooth and flawless business. This shows he is always ready
+            and open for “change”.
+</p>
+        </div>
+   
+        <div class="prod_card" onclick="#';">
+            <div>
+                <img src="images/karamveer.jpg" alt="">
+                <h3 style="	background-image: url(images/icon/brush.png);    background-size: cover;
+    padding-right: 46px;
+    padding-bottom: 0;background-position: center;">KARANVEER SHARMA</h3>
+            
+            </div>
+            
+            <p>
+                <h5 style="font-weight:700;color:#03bb85">FOUNDER/DIRECTOR/PARTNER:</h5>
+                Karanveer Sharma is a young and passionate entrepreneur and owner of a successful import/export company. A person who always believes that time management is one 
+            of the key to success and the road to sucess is never easy. He is been active in multiple businesses like HOTEL and restaurant industry, Music industry and import/export.
+            He started his business career after his graduation got completed. he is very compatible with his colleagues and works with a positive vibe.He comes with various experiences 
+            from different fields and also has a good knowledge of accounts. he is always ready to face challenges and make changes in his strategy as per the situation. 
+            Time and time again he has proven that he is the best reliable resource that every company needs.</p>
+        </div>
+      
+        
+    
+       
+    </div>
+</section>
+
+
+
+
+
+<div style="width:100%;height:80px;"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- footer part START -->
+
+    <section class="footr" style="background-color:#03bb85 !important;">
+
+        <!-- products part  -->
+    
+        <div class="ftr_prt">
+            <div class="ftr_con">
+                <h3>OUR PRODUCTS</h3>
+                <ul>
+                    <li><a href="vegetable.html">Vegetables</a> </li>
+                    <li><a href="indianmeat.html">Meat</a> </li>
+                    <li><a href="fruits.html">Fruits</a> </li>
+                    <li><a href="sugar.html">Sugar</a> </li>
+                    <li><a href="pulses.html">Pulses</a> </li>
+                   
+                    <li><a href="rice.html">Rice</a> </li>
+                    
+                </ul>
+            </div>
+    
+    
+            <!-- help part  -->
+    
+            <div class="ftr_con2">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="http://esencaexport.com/About.html">About Us</a></li>
+                    <li >
+                                            <a   href='contact.html' 
+                    >Contact Us</a>
+                    </li>
+                    
+                    <li><a href="Ourteam.html">Our Team</a></li>
+                    <li><a href="#">Download Brochure</a></li>
+                </ul>
+            </div>
+    
+            <!-- contact us part get in touch  -->
+    
+            <div class="ftr_con2">
+                <h3>GET IN TOUCH</h3>
+                <ul>
+                    
+                    <li>Contact- +91 9044422263 / +91 9773000029</li>
+                    <li><a href="#">Email: contact@esencaexport.com</a></li>
+                    <li style="margin-bottom: 15px;"><a href="#"></a></li>
+                    <li>EsencaExport</li>
+                    <li style="margin-bottom: 15px;"> B/10, Vikas Industrial Estate, near Bhayandar fatak, <br>
+                         Bhayandar East, 401105 
+                        Mumbai,Maharashtra</li>
+                    <li><a href="https://g.page/EsencaExport?share">Open in Google Maps</a> </li>
+                </ul>
+            </div>
+        </div>
+    
+    
+        <!-- horizonatal line  -->
+    
+        <hr style="width:95%;margin:30px auto;height:8px;background: #ffffff;border:none;border-radius: 10px;">
+    
+        <!-- footer last logo with  -->
+    
+        <div class="last_ftp_part">
+            <ul>
+                <li style="display: grid;grid-template-columns: auto auto;">
+                    <img src="images/icon/esencaexport_log.png" alt="">
+                    <p>© 2021 EsencaExport - All Rights Reserved.</p>
+                </li>
+                
+            </ul>
+            <li >
+                <a href="#"> <i class="fab fa-facebook" style="color:white;"></i> </a>
+                <a href="#"> <i class="fab fa-linkedin-in" style="color:white;"></i> </a>
+                <a href="#"> <i class="fab fa-instagram" style="color:white;"></i> </a>
+                <a href="#"> <i class="fab fa-twitter" style="color:white;"></i> </a>
+            </li>
+        </div>
+    </section>
+    
+    
+    <!-- footer part END -->
+
+
+
+<!--START SCROLL TOP-->
+<div class="go-top"><i class="fas fa-angle-up"></i><i class="fas fa-angle-up"></i></div>
+<!--END SCROLL TOP-->
+
+<!-- JavaScript -->
+<script src="vendor/js/bundle.min.js"></script>
+<!-- Plugin Js -->
+<script src="vendor/js/jquery.appear.js"></script>
+<script src="vendor/js/jquery.fancybox.min.js"></script>
+<script src="vendor/js/owl.carousel.min.js"></script>
+<script src="vendor/js/parallaxie.min.js"></script>
+<script src="vendor/js/wow.min.js"></script>
+<script src="vendor/js/jquery.cubeportfolio.min.js"></script>
+<!-- REVOLUTION JS FILES -->
+<script src="vendor/js/jquery.themepunch.tools.min.js"></script>
+<script src="vendor/js/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION EXTENSIONS -->
+<script src="vendor/js/morphext.min.js"></script>
+<script src="vendor/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="vendor/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="vendor/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="vendor/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="vendor/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="vendor/js/extensions/revolution.extension.video.min.js"></script>
+
+<!-- CUSTOM JS -->
+<script src="js/isotope.pkgd.js"></script>
+<script src="js/modernizr.custom.97074.js"></script>
+<script src="js/jquery.hoverdir.js"></script>
+<!-- custom script -->
+<script src="vendor/js/contact_us.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
